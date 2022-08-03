@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #718387;
+  padding: 12px;
+}
+
+.link{
+  color: #DEDEDE;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.cabecalho{
+  text-align: center;
+
+  background-color: #98336C;
+  background: linear-gradient(90deg, #486288 0%, #98336C 100%);
+}
+
+.image{
+  border: 1px solid black;
+  border-radius: 100%;
+}
