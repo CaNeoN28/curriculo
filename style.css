@@ -9,7 +9,7 @@
 }
 
 .link{
-  color: #DEDEDE;
+  color: white;
   text-decoration: none;
 }
 
@@ -22,10 +22,42 @@
   text-align: center;
 
   background-color: #98336C;
-  background: linear-gradient(90deg, #486288 0%, #98336C 100%);
+  background: linear-gradient(90deg, rgba(72, 98, 136, 0.8) 0%, rgb(152, 51, 108, 0.8) 100%), url('./img/background.jpg');
+}
+
+.titulo{
+  color: white;
+
+  padding-bottom: 40px;
 }
 
 .image{
-  border: 1px solid black;
-  border-radius: 100%;
+  border: 2px solid rgb(9, 36, 66);
+  border-radius: 50%;
+
+  margin: 100px 20px 20px 20px;
+
+  animation: animation infinite linear 10s;
+}
+
+.redes a{
+  text-decoration: none;
+}
+
+.redes a img{
+  padding: 20px;
+}
+
+@keyframes animation{
+  0%{
+    filter: none;
+  }
+
+  50%{
+    filter: invert(1);
+  }
+
+  100%{
+    filter: none;
+  }
 }
