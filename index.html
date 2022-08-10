@@ -4,7 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Currículo de Carlos Felipe</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet">
+
+
+
 </head>
 
 <body>
@@ -16,9 +25,9 @@
     </nav>
 
     <div class="cabecalho">
-      <img class="image" src="carlos felipe.png" alt="Foto de Carlos Felipe" width="128px" height="128px" />
+      <img class="image" src="img/carlos felipe.png" alt="Foto de Carlos Felipe" width="128px" height="128px" />
       <h1 class="titulo">Currículo de Carlos Felipe</h1>
-      
+
       <div class="redes">
         <a href="http://github.com/caneon28" target="_blank">
           <img src="./icons/github.svg" alt="Github">
@@ -37,8 +46,8 @@
   </header>
 
   <main>
-    <h2>Formação</h2>
-    <p>
+    <h2 class="subtitulo">Formação</h2>
+    <p class="texto">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta, risus eu auctor mattis, eros ex
       placerat velit, in laoreet risus sapien ac quam. Cras varius sagittis tortor, nec gravida purus pretium ut.
       Maecenas
@@ -46,8 +55,9 @@
       Duis
       eu enim in tellus interdum aliquam sed non velit. Morbi convallis odio vel vestibulum facilisis. Mauris eget felis
       volutpat, placerat urna id, bibendum augue.</p>
-    <h2>Projetos</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ducimus ab assumenda reiciendis, placeat
+    <h2 class="subtitulo">Projetos</h2>
+    <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ducimus ab assumenda reiciendis,
+      placeat
       quibusdam libero ipsam blanditiis ipsum suscipit quidem minus eaque explicabo quisquam esse ullam vero possimus
       quas.
       Facere corrupti numquam, voluptates optio quae ratione, tenetur dicta quis aspernatur expedita voluptatum quia
@@ -59,11 +69,16 @@
       Eum libero laborum, provident, dolorem numquam praesentium sunt quis consequatur perspiciatis eius beatae ipsum
       voluptate fuga. Praesentium saepe quis est asperiores! Laboriosam laborum sequi, minus ut consequuntur doloribus
       veritatis cum?</p>
-    <h2>Galeria de fotos</h2>
+    <h2 class="subtitulo">Galeria de fotos</h2>
+    <div class="fotos">
+      <img src="./img/imagem1.png" alt="Mulher de fone laranja programando em três telas">
+      <img src="./img/imagem2.png" alt="Homem segurando e apontando para um post-it onde está escrito CODE">
+      <img src="./img/imagem3.png" alt="Mulher programando em três telas">
+    </div>
   </main>
 
-  <footer>
-    Carlos Felipe Steinheuser - carlosfelipe.st28@gmail.com
+  <footer class="rodape">
+    Carlos Felipe Steinheuser
   </footer>
 </body>
 

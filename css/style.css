@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #718387;
+  padding: 12px;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.cabecalho{
+  text-align: center;
+
+  background-color: #98336C;
+  background: linear-gradient(90deg, rgba(72, 98, 136, 0.8) 0%, rgb(152, 51, 108, 0.8) 100%), url('../img/background.jpg');
+}
+
+.titulo{
+  color: white;
+
+  padding-bottom: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.image{
+  border: 2px solid rgb(9, 36, 66);
+  border-radius: 50%;
+
+  margin: 100px 20px 20px 20px;
+}
+
+.redes a{
+  text-decoration: none;
+}
+
+.redes a img{
+  padding: 20px;
+}
+
+.subtitulo{
+  padding: 10px;
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.texto{
+  padding: 10px;
+  line-height: 1.5;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+::selection{
+  background-color: rgb(9, 36, 66);
+  color: white;
+}
+
+.fotos{
+  margin: 10px;
+
+  display: flex;
+  justify-content: space;
+}
+
+.fotos img{
+  border: 1px solid #98336C;
+}
+
+.rodape{
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #718387;
+  color: white;
+}
